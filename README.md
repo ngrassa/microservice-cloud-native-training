@@ -16,7 +16,7 @@ http://<ip_enp0s8>:8081
 6-  sudo copy  test.php /var/www/html/index.html \
 7- http://<ip_enp0s8>
 # Conteneurisarion ( micro-service)
- cd lab-02
+ cd lab-02 \
  1- contruction d'un artifact: \
  mvn clean install \
  2- contruction de l'image de l'application back-end: \
