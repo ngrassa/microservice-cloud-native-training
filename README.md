@@ -29,6 +29,6 @@ http://<ip_enp0s8>:8081
  5- docker build -t frontend:1.4.4 -f Dockerfile.frontend . \
  6- contruction  de l'application en lancant deux conteneurs (front-end  t back-end) 2 micro-services en utilisant docker-compose.yml  \
  docker-compose up -d \
- test navigateur: http://<ip_enp0s8>
+ test navigateur: http://<ip_enp0s8> \
  7- A la fin arreter et supprimer les conteneurs du lab02 \
  docker-compose down
