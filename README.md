@@ -26,7 +26,9 @@ http://<ip_enp0s8>:8081
  docker run -rm --name monolithic -p 8081:8081 monolithic:1.4.4 \
  4- test navigateur (payement + catalog) : http://<ip_vagrant>/   
  #  Arretons l'app back-end (pour le moment) 
- 5- contruction de l'image de l'application front-end en utilisant docker-compose.yml  \
+ 5- docker build -t frontend:1.4.4 -f Dockerfile.frontend . \
+ 6- contruction  de l'application en lancant deux conteneurs (front-end  t back-end) 2 micro-services en utilisant docker-compose.yml  \
  docker-compose up -d \
- 6- A la fin arreter et supprimer les conteneurs du lab02 \
+ test navigateur: http://<ip_enp0s8>
+ 7- A la fin arreter et supprimer les conteneurs du lab02 \
  docker-compose down
