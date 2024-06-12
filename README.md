@@ -9,7 +9,7 @@ mvn clean install \
 3- déployer le livrable monolith : 
 java --jar target/monolitic-1.4.4.RELEASE-exec.jar \
 4- test dans le navigateur:\
-http://<ip_enp0s8>
+http://<ip_enp0s8>:8081
 
 # installation du fontend pour consommer le back-end
 5-  sudo yum install -y httpd \
